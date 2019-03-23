@@ -5,7 +5,7 @@ import MessagesDisplay from './MessagesDisplay/MessagesDisplay';
 import ChatForm from './ChatForm/ChatForm';
 
 // simple chat window containing a display of past messages and the message input field
-const chatWindow = (props) => (
+const chatWindow = () => (
     <div className={classes.ChatWindow}>
         <MessagesDisplay />
         <ChatForm />

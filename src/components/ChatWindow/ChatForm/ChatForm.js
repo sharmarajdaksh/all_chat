@@ -27,7 +27,7 @@ class ChatForm extends React.Component {
         if (this.state.message.length > 0)
             this.props.onChatSubmit(this.props.name, this.state.message);
         // reinitialize the value of input field and the internal state to empty
-        event.target.value='';
+        event.target.value = '';
         this.setState({
             message: ''
         });
@@ -35,14 +35,14 @@ class ChatForm extends React.Component {
 
     render() {
         return (
-                <form onSubmit={this.chatSubmit} className={classes.Form}>
-                    <Input
-                        inputName='ChatInput'
-                        placeholder='What do you want to say?'
-                        changed={(event) => this.inputChangedHandler(event)}
-                        value={this.state.message} />
-                    <button className={classes.Button} type='submit'>SEND</button>
-                </form>
+            <form onSubmit={this.chatSubmit} className={classes.Form}>
+                <Input
+                    inputName='ChatInput'
+                    placeholder='What do you want to say?'
+                    changed={(event) => this.inputChangedHandler(event)}
+                    value={this.state.message} />
+                <button className={classes.Button} type='submit'>SEND</button>
+            </form>
         );
     }
 }

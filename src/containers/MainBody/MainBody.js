@@ -23,7 +23,7 @@ class MainBody extends React.Component {
 
     render() {
         return (
-            <div className={classes.MainBody}>
+            <main className={classes.MainBody}>
                 <Input
                     inputName='NameInput'
                     label="You're using the name"
@@ -31,7 +31,7 @@ class MainBody extends React.Component {
                     changed={(event) => this.inputChangedHandler(event)}
                 />
                 <ChatWindow />
-            </div>
+            </main>
         );
     }
 }
