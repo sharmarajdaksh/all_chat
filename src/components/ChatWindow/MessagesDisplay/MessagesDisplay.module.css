@@ -1,0 +1,14 @@
+.MessagesDisplay {
+    max-height: 350px;
+    /* border-bottom: 1px solid #cdcdcd; */
+    background-color: #fafafa;
+    padding: 20px;
+    line-height: 150%;
+    overflow: auto;
+}
+
+@media (min-height: 700px) {
+    .MessagesDisplay {
+        min-height: 500px;
+    }
+}

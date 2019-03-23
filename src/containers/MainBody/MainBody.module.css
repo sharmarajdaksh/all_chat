@@ -1,0 +1,24 @@
+.MainBody {
+    width: 100%;
+    margin: auto;
+    font-family: 'Roboto';
+}
+
+@media (min-width: 499px) {
+    .MainBody {
+        width: 90%;
+    }
+}
+
+@media (min-width: 749px) {
+    .MainBody {
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 1099px) {
+    .MainBody {
+        width: 60%;
+    }
+}

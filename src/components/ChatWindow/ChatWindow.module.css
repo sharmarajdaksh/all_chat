@@ -1,0 +1,15 @@
+.ChatWindow {
+    margin: 20px auto;
+    width: 90%;    
+    max-width: 500px;
+    border-radius: 5px;
+    border: 1px solid #cdcdcd;
+    overflow: hidden;
+    box-shadow: #ddd 3px 3px 10px;
+}
+
+@media (min-height: 700px) {
+    .ChatWindow {
+        margin: 50px auto;
+    }
+}

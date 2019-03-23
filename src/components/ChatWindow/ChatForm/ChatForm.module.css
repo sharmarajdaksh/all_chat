@@ -1,0 +1,22 @@
+.Form {
+    display: flex;
+}
+
+.Button {
+    display: inline-block;
+    width: 20%;
+    padding: 6px 10px;
+    background-color: #666;
+    color: white;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+
+.Button::-moz-focus-inner { border: 0; }
+
+.Button:hover, .Button:focus .Button:active {
+    background-color: #444;
+    outline: none;
+}

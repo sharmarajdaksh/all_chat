@@ -1,0 +1,21 @@
+.Banner {
+    background-color: #111111;
+    padding: 1%;
+    margin-bottom: 20px;
+}
+
+.Logo {
+    height: 2.5rem;
+}
+
+.BannerContainer {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    .Banner {
+        margin-bottom: 40px;
+    }
+}
