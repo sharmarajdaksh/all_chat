@@ -1,68 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I, **sharmarajdaksh**, created this application just for fun in ReactJS, which I learnt recently.
 
-## Available Scripts
+I hosted the app on Github-Pages, which you can check out [here](https://sharmarajdaksh.github.io/all_chat/)
 
-In the project directory, you can run:
+### All_Chat is essentially my attempt to try and create the front-end of a chatroom.
+* Currently, the app works completely in an invidual user's browser and messages only remain as long as the browser page is not refreshed, since there is no back-end.
 
-### `npm start`
+### Why though?
+* Even if a back-end is added, the front-end need not be changed. The only difference would be that instead of storing messages in the user's browser temporarily, the messages would be stored in a database (common for all users), which would be retrieved everytime the page is loaded/reloaded. In that case, all user's will be able to message in the chat room, to communicate at once.
+* In a scenario of a login-based app, the username could, obviously, be retrieved directly without the user having to input his name to chat.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Specifications
+* The app was bootstrapped using the `create-react-app` utility.
+* The app uses **ReactJS**, along with **Redux** for managing state.
+  * Redux was not really necessary on this particular app, but I wanted to test out Redux to get comfortable with it.
