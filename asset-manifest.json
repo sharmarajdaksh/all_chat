@@ -1,14 +1,14 @@
 {
-  "main.css": "/sharmarajdaksh.github.io/all_chat/static/css/main.2ba12fe0.chunk.css",
-  "main.js": "/sharmarajdaksh.github.io/all_chat/static/js/main.6ccdf1e8.chunk.js",
-  "main.js.map": "/sharmarajdaksh.github.io/all_chat/static/js/main.6ccdf1e8.chunk.js.map",
-  "runtime~main.js": "/sharmarajdaksh.github.io/all_chat/static/js/runtime~main.5ee40f93.js",
-  "runtime~main.js.map": "/sharmarajdaksh.github.io/all_chat/static/js/runtime~main.5ee40f93.js.map",
-  "static/js/2.cf9daf1d.chunk.js": "/sharmarajdaksh.github.io/all_chat/static/js/2.cf9daf1d.chunk.js",
-  "static/js/2.cf9daf1d.chunk.js.map": "/sharmarajdaksh.github.io/all_chat/static/js/2.cf9daf1d.chunk.js.map",
-  "index.html": "/sharmarajdaksh.github.io/all_chat/index.html",
-  "precache-manifest.f36d690812416038570d355e54cd25c5.js": "/sharmarajdaksh.github.io/all_chat/precache-manifest.f36d690812416038570d355e54cd25c5.js",
-  "service-worker.js": "/sharmarajdaksh.github.io/all_chat/service-worker.js",
-  "static/css/main.2ba12fe0.chunk.css.map": "/sharmarajdaksh.github.io/all_chat/static/css/main.2ba12fe0.chunk.css.map",
-  "static/media/all_chat_white.svg": "/sharmarajdaksh.github.io/all_chat/static/media/all_chat_white.8c91f203.svg"
+  "main.css": "./static/css/main.ae489933.chunk.css",
+  "main.js": "./static/js/main.ce71fbc2.chunk.js",
+  "main.js.map": "./static/js/main.ce71fbc2.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.9eb600ee.js",
+  "runtime~main.js.map": "./static/js/runtime~main.9eb600ee.js.map",
+  "static/js/2.8073cf39.chunk.js": "./static/js/2.8073cf39.chunk.js",
+  "static/js/2.8073cf39.chunk.js.map": "./static/js/2.8073cf39.chunk.js.map",
+  "index.html": "./index.html",
+  "precache-manifest.8a4211f04b98fdee9299881e135fde86.js": "./precache-manifest.8a4211f04b98fdee9299881e135fde86.js",
+  "service-worker.js": "./service-worker.js",
+  "static/css/main.ae489933.chunk.css.map": "./static/css/main.ae489933.chunk.css.map",
+  "static/media/all_chat_white.svg": "./static/media/all_chat_white.8c91f203.svg"
 }
