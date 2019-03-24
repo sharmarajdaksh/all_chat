@@ -1,7 +1,7 @@
 .MessagesDisplay {
     max-height: 350px;
     /* border-bottom: 1px solid #cdcdcd; */
-    background-color: #fafafa;
+    background-color: #fff;
     padding: 20px;
     line-height: 150%;
     overflow: auto;

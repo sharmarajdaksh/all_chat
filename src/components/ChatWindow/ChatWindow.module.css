@@ -5,7 +5,7 @@
     border-radius: 5px;
     border: 1px solid #cdcdcd;
     overflow: hidden;
-    box-shadow: #ddd 3px 3px 10px;
+    box-shadow: #eee 3px 3px 5px;
 }
 
 @media (min-height: 700px) {
